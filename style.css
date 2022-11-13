@@ -1,8 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Syne:regular,500,600,700,800);
+@import url(https://fonts.googleapis.com/css?family=Aldrich:regular);
 *{
     margin: 0;
     box-sizing: border-box;
     padding: 0;
 }
-.container-sm{
-    padding: 20px;
+:root{
+    --main-color: #B226E4;
+    --second-color: #090F09;
+    --text-color:#fff;
+}
+/*navbar styling*/
+.navbar{
+    background: var(--second-color);
+}
+.navbar a{
+    color: var(--text-color);
+    font-family: 'Aldrich';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+}
+.navbar a:hover{
+    color: var(--main-color);
+
+}
+.navbar-brand{
+    margin-top: 12px;
+    color: var(--text-color);
+    font-family: 'Aldrich';
+    font-size: 24px;
+    line-height: 130%;
+}
+.navbar-brand span{
+    color: #B226E4;
+    margin-right: 180px;
+}
+.navbar-nav li{
+    padding: 0 15px 0 15px;
+}
+.navbar-toggler-icon{
+    background: var(--main-color);
+    border: 1px solid #fff;
+}
+.collapse{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-item button{
+    background: var(--second-color);
+    border: 1px solid var(--main-color);
+    border-radius: 50px;
+    color: var(--main-color);
+    padding: 10px;
+    width: 160px;
+    font-size: clamp(12px, 2vw, 16px);
+}
+.nav-item button:hover{
+    background: var(--main-color);
+    color: var(--text-color);
+    transition: 1s;
+}
+#main{
+    background: url(images/Desktop\ -\ 14.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#main .container-sm{
+    display: flex;
 }
