@@ -72,7 +72,7 @@ p{
     background: url(images/Desktop\ -\ 14.png);
     background-position: center;
     background-repeat: no-repeat;
-    padding-top: 110px;
+    padding-top: 100px;
     padding-bottom: 70px;
 }
 #main .container-sm{
@@ -99,7 +99,7 @@ p{
     line-height: 100%;
 }
 .main{
-    font-size: 48px;
+    font-size: clamp(30px,5vw,48px);
     line-height: 130%;
     font-family: 'aldrich';
     font-weight: 400;
@@ -154,4 +154,52 @@ p{
 .third_img:hover{
     transition: 1s;
     transform: translateY(-20px);
+}
+@media (max-width:900px){
+    #main{
+        margin-top: -40px;
+        padding-top: 50px;
+    }
+    #main .container-sm{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .icons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .first_img, 
+    .sec_img,
+    .third_img{
+        height: 150px;
+        width: 75px;
+    }
+    .sec_img{
+        margin-top: 0px;
+    }
+    .first_img{
+        margin-top: 0px;
+    }
+    .first_img img{
+        width: 70px;
+        height: 100px;
+    }
+    .sec_img img{
+        width: 70px;
+        height: 100px;
+    }
+    .third_img img{
+        width: 70px;
+        height: 100px;
+    }
+    .first_img:hover,
+.sec_img:hover,
+.third_img:hover{
+    transition: 1s;
+    transform: translateX(-30px);
+}
 }
