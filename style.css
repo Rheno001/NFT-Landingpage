@@ -10,6 +10,11 @@
     --second-color: #090F09;
     --text-color:#fff;
 }
+p{
+    font-family: 'syne';
+    font-weight: 400;
+    color: var(--text-color);
+}
 /*navbar styling*/
 .navbar{
     background: var(--second-color);
@@ -60,13 +65,93 @@
 .nav-item button:hover{
     background: var(--main-color);
     color: var(--text-color);
-    transition: 1s;
+    transition: .5s;
 }
+/*main section*/
 #main{
     background: url(images/Desktop\ -\ 14.png);
     background-position: center;
     background-repeat: no-repeat;
+    padding-top: 110px;
+    padding-bottom: 70px;
 }
 #main .container-sm{
     display: flex;
+}
+.icons{
+    display: flex;
+}
+.icon_text{
+    margin-left: 20px;
+}
+.icon_text span{
+    color: var(--main-color);
+}
+.icon_p{
+    color: var(--text-color);
+    font-family: 'syne';
+}
+.main_p,
+.main{
+    color: var(--text-color);
+}
+.main_p{
+    line-height: 100%;
+}
+.main{
+    font-size: 48px;
+    line-height: 130%;
+    font-family: 'aldrich';
+    font-weight: 400;
+}
+.main span{
+    color: #B226E4;
+}
+.main-sec{
+    margin-top: 30px;
+}
+.bt-main{
+    color: var(--text-color);
+    font-weight: 500;
+    font-family: 'syne';
+    background: linear-gradient(90deg, #B226E4 5.07%, #0D0D0D 92.39%);
+    border-radius: 50px;
+    width: clamp(180px,2vw,212px);
+    border: 0.5px solid #B226E4;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.bt-main:hover{
+    background: none;
+    border: none;
+}
+.icons ul{
+    display: flex;
+}
+.main-images{
+    display: flex;
+}
+.first_img, 
+.sec_img,
+.third_img{
+    background: linear-gradient(176.73deg, rgba(0, 0, 0, 0.2) 10.87%,
+     rgba(0, 0, 0, 0.2) 49.81%), linear-gradient(180deg, #B226E4 0%, rgba(178, 38, 228, 0) 100%);
+     border-radius: 64.9423px;
+     padding-top: 15px;
+     margin-left: 10px;
+     margin-right: 10px;
+     height: 290px;
+}
+.sec_img{
+    margin-top: 120px;
+}
+.first_img{
+    margin-top: 220px;
+}
+.first_img:hover,
+.sec_img:hover,
+.third_img:hover{
+    transition: 1s;
+    transform: translateY(-20px);
 }
