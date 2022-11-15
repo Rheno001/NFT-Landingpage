@@ -49,7 +49,7 @@ p{
 }
 .navbar-toggler-icon{
     background: var(--main-color);
-    border: 1px solid #fff;
+    border:none;
 }
 .collapse{
     display: flex;
@@ -198,6 +198,12 @@ p{
     font-weight: 600;
     font-family: 'syne';
 }
+.second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .sec_p{
     color: var(--main-color);
     padding: 18px;
@@ -206,7 +212,7 @@ p{
     background: none;
 }
 .sec_nav_ul{
-    margin-left: 90px;
+    margin-left: 110px;
 }
 
 .sec_navbar .collapse ul{
@@ -373,16 +379,16 @@ p{
         padding: 10px;
     }
     .grid-section img{
-        max-width: 130px;
+        max-width: 110px;
     }
     .NFT-card_1 a,
-.NFT-card_2 a,
-.NFT-card_3 a,
-.NFT-card_4 a,
-.NFT-card_5 a,
-.NFT-card_6 a,
-.NFT-card_7 a,
-.NFT-card_8 a{
+    .NFT-card_2 a,
+    .NFT-card_3 a,
+    .NFT-card_4 a,
+    .NFT-card_5 a,
+    .NFT-card_6 a,
+    .NFT-card_7 a,
+    .NFT-card_8 a{
     width: 110px;
 }
 .NFT-card_1 a:hover,
