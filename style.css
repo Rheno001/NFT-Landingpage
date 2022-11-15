@@ -376,7 +376,6 @@ p{
     .grid-section{
         display: grid;
         grid-template-columns: auto auto;
-        padding: 10px;
     }
     .grid-section img{
         max-width: 110px;
