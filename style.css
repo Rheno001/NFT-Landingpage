@@ -5,6 +5,9 @@
     box-sizing: border-box;
     padding: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
 :root{
     --main-color: #B226E4;
     --second-color: #090F09;
@@ -210,7 +213,6 @@ p{
 .sec_nav_ul{
     margin-left: 110px;
 }
-
 .sec_navbar .collapse ul{
   margin-top: 10px;
 }
@@ -231,6 +233,7 @@ p{
 }
 .sec_item a{
     display: flex;
+    align-items: center;
 }
 .sec_nav_ul li{
     background: linear-gradient(270deg, rgba(178, 38, 228, 0.2) 99.89%, rgba(13, 13, 13, 0.1) 123.55%);
@@ -500,12 +503,23 @@ h6{
 a img{
     width: 30px;
 }
+.resources{
+    padding: 10px;
+    text-align: center;
+}
+.frame-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .frames{
     grid-template-columns: auto;
     padding: 10px;
     margin: 0 auto;
 }
 .frame-card img{
-    max-width: 300px;
+    max-width: 500px;
+    max-height: 200px;
 }
 }
