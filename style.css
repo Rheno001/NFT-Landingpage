@@ -609,6 +609,9 @@ a img{
     max-width: 500px;
     max-height: 200px;
 }
+.FAQ{
+    text-align: center;
+}
 .sama{
     display: flex;
     flex-direction: column;
