@@ -409,10 +409,26 @@ h6{
 }
 .freq{
     color: var(--text-color);
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 .freq span{
     color: var(--main-color);
     font-family: 'Aldrich';
+}
+.accordion-body{
+    font-family: 'syne';
+    background: var(--main-color);
+    color: var(--second-color);
+}
+.accordion-item{
+    padding: 15px;
+}
+.accordion-button{
+    font-size: 24px;
+    color: var(--text-color);
+    font-family: 'syne';
+    font-weight: 700;
 }
 @media (max-width:1300px){
     .navbar-nav{
