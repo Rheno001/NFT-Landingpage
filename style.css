@@ -21,6 +21,12 @@ p{
 /*navbar styling*/
 .navbar{
     background: var(--second-color);
+    
+}
+header .farko{
+    top: 0;
+    position: sticky;
+    width: 100%;
 }
 .navbar a{
     color: var(--text-color);
